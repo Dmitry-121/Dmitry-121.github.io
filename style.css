@@ -1,0 +1,395 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+*{
+    box-sizing: border-box;
+    
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+    font-family: 'Roboto', sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    border: none;
+}
+
+.container{
+    max-width: 1200px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.flex-sa-w{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+button{
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+button.button{
+    width: 207px;
+    border: 2px solid #f82370;
+    background-color: transparent;
+    padding: 16px 0;
+    font-size:18px;
+    font-weight: 400;
+    color:#f53f4f;;
+}
+
+button.button-orange{
+    display: block;
+    width: 270px;
+    padding: 22px 0;
+    background-color: #ff4e2e;
+    font-family: Tahoma;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+button.button:hover{
+    transition: 0.5s;
+    background-color: #f82370;
+    color: white;
+}
+
+button.button-orange:hover{
+    background-color: #ff5e2e;
+}
+
+.btn-block{
+    display: block;
+    margin: 0 auto;
+}
+
+.gray-text{
+    font-size: 20px;
+    font-weight: 400;
+    color: #8993ad;
+}
+
+h2.header-text{
+    text-align: center;
+    font-size: 44px;
+    font-weight: 400;
+}
+
+.header{
+    padding: 29px 0;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-link-item:not(:last-child){
+    margin-right: 34px;
+}
+
+.navbar-link-item{
+    font-size: 16px;
+    color: #1f1f24;
+    text-decoration: none;
+}
+
+.navbar-link-item:hover{
+    color: #fc557c;
+    text-decoration: underline;
+}
+
+.navabar-contacts-phone{
+    margin-right: 29px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #1f1f24;
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+
+
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.hero-main{
+    margin-top: 225px;
+}
+
+
+
+h1.hero-header{
+    font-size: 60px;
+    line-height: 104px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #1f1f24;
+}
+
+span.hero-text{
+    display: block;
+    margin-bottom: 46px;
+}
+
+
+
+section.activity{
+    margin-top: 98px;
+}
+
+.activity-wrap{ 
+    margin: 95px 0;
+}
+
+.activity-wrap-block{
+    max-width: 250px;
+    text-align: center;
+}
+
+p.advantage-text{
+    margin-top: 24px;
+    
+}
+
+
+
+.portfolio{
+    margin-top: 200px;
+    margin-bottom: 102px;
+}
+
+.portfolio-wrap{
+    margin: 100px 0;
+}
+
+.portfolio-wrap-block{
+    max-width: 370px;
+    text-align: center;
+}
+
+.portfolio-text{
+    margin-top: 37px;
+}
+
+
+
+.price{
+    padding: 85px 0;
+    background-color: #ff4e2e;
+}
+
+.price-text{
+    color: #ffffff;
+    margin-left: 140px;
+}
+
+h3.price-header{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+p.price-description{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+.footer{
+    padding: 90px 0;
+}
+
+.footer-menu-link{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 17px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #8993ad;
+}
+
+.footer-contacts-block{
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 35px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.footer-contacts-block img{
+    margin-right: 22px;
+    width: 18px;
+    height: 18px;
+}
+
+.footer-social-wrap{
+    margin-top: 31px;
+}
+
+.footer-social-link:not(:last-child){
+    margin-right: 30px;
+}
+
+
+
+.copyright{
+    padding: 32px 0;
+    color: white;
+    text-align: center;
+    background-color: #31293c;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-main {
+        margin: 0 auto;
+        margin-top: 55px;
+    }  
+    
+    .hero-img {
+        margin: 0 auto;
+    }
+    
+    .button-orange {
+        margin: 0 auto;
+    }
+    
+
+    /* basic settings */
+
+    .container {
+        width: 100%;
+    }
+
+    /* header */
+
+    .navbar {
+        display: block;
+        text-align: center;
+    }
+
+    .navbar-contacts {
+        margin-top: 40px;
+    }
+
+    .hero {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    /* section activity */
+
+    .activity-wrap-block {
+        padding: 20px;
+        border: 2px solid  #f82370;
+    }
+
+    /* section portfolio */
+
+    .portfolio {
+        padding-top: 80px;
+    }
+
+    .portfolio-wrap-block{
+        margin-bottom: 40px;
+    }
+
+    /* section price */
+
+    .price-text {
+        text-align: center;
+        margin: 0 20px;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    .footer {
+        padding: 30px 0;
+    }
+
+    .footer-wrap {
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .footer-menu-link {
+        font-size: 24px;
+    }
+
+    .footer-contacts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-contacts-block {
+        display: flex;
+        margin: 30px auto;
+    }
+}
